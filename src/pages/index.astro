@@ -14,8 +14,9 @@
         src="../../public/logo.webp"
         alt="logo de la velada"/>
 
-        <h1 class="text-6xl uppercase text-center text-white font-bold">
-          La velada del año III
+        <h1 class="font-boxing-striped text-6xl uppercase text-center text-white font-bold">
+         <span class="bg-clip-text text-transparent bg-gradient-to-b from-white via-gray-400 to-white inline-block leading-relaxed"> La velada del año </span>
+         <span class="text-yellow-300">III</span>
         </h1>
       </div>
       
@@ -123,5 +124,16 @@
 <style is:global>
     body{
         background: #131313;
+    }
+    @font-face{
+      font-family: "Boxing";
+      src: url("/public/fonts/boxing.otf");
+      font-weight: bold;
+    }
+
+    @font-face {
+      font-family: "Boxing Striped";
+      src: url("/public/fonts/boxing-striped.woff2");
+      font-weight: bold;
     }
 </style>
