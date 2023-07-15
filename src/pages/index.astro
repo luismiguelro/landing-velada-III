@@ -4,17 +4,17 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<title>La Velada del Año</title>
+		<title>La Velada del Año III</title>
 	</head>
 	<body>
 		<header class="relative">
-      <div class ="absolute left-1/2 -translate-x-1/2 flex flex-col gap-1 justify-center items-center top-4">
+      <div class ="absolute left-1/2 -translate-x-1/2 flex flex-col gap-1 justify-center items-center top-8 z-10">
         <img
         class="w-32 lg:w-64 h-auto"
         src="../../public/logo.webp"
         alt="logo de la velada"/>
 
-        <h1 class="font-boxing-striped text-6xl uppercase text-center text-white font-bold">
+        <h1 class="font-boxing-striped text-5xl uppercase text-center text-white font-bold">
          <span class="bg-clip-text text-transparent bg-gradient-to-b from-white via-gray-400 to-white inline-block leading-relaxed"> La velada del año </span>
          <span class="text-yellow-300">III</span>
         </h1>
@@ -36,6 +36,9 @@
               lg:h-screen pt-24 border-b border-white/10
              `}
              >
+             <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#131313] via-zinc-800 to-zinc-950">
+
+             </div>
                  {/*Images izquierda*/}
                  <div class="relative w-full">
 
@@ -101,7 +104,7 @@
                      alt="luzu"/>
 
                     <img 
-                    class=" right-[42%] h-[68%] z-10 animate-fade-left animate-delay-1000"
+                    class=" right-[42%] h-[66%] z-10 animate-fade-left animate-delay-1000"
                      src="/public/boxers/rivers.webp" 
                      alt="rivers"/>
 
@@ -111,6 +114,41 @@
                     alt="ampeter"/>
 
                   </div>
+
+                  <!--Info-->
+                  <div 
+                  id="info"
+                  class="absolute bottom-8 z-50 mx-auto left-1/2 -translate-x-1/2"
+                  >
+
+                  <div class="flex flex-col">
+                    <div class="px-5 pt-4 pb-2 bg-white text-black text-center">
+                      <h2 class="font-boxing-striped text-7xl">1 de JULIO</h2>
+                    </div>
+
+                    <div class="px-5 pt-2 pb-1 bg-black text-white text-center">
+                      <a
+                        class="font-boxing text-[46px] hover:contrast-150 hover:scale-105 transition inline-block"
+                        href="https://twitch.tv/ibai"
+                        target="_blank"
+                        rel="noopener norefferrer">
+                        <span class="text-white">twitch.tv/</span>
+                        <span class="text-yellow-300">ibai</span>
+                      </a>
+                    </div>
+
+                    <div class="px-5 pt-2 pb-1 bg-sky-700 text-black text-center ">
+                      <a
+                        class="text-4xl font-boxing hover:contrast-150 hover:scale-105 transition inline-block text-white" 
+                        href="https://twitch.tv/ibai"
+                        target="_blank"
+                        rel="noopener norefferrer">
+                        Comprar Entradas
+                      </a>
+                    </div>
+                  </div>
+                  
+                </div>
              </section>
         </main>
 
